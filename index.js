@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/users", userRouter); // http://localhost:5000/users/signup
 app.use("/tour", tourRouter);
 app.get("/", (req, res) => {
-  res.send("Welcome to tour API");
+  res.send("Welcome to Suttra API");
 });
 
 const port = process.env.PORT || 5000;
