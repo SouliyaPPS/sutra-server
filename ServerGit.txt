@@ -3,4 +3,4 @@ git add .
 git commit -m "pnpm run dev"
 git branch -M main
 git remote add origin https://github.com/SouliyaPPS/sutra-server.git
-git push -u origin main -f
+git push -u origin main
